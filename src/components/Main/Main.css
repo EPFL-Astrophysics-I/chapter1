@@ -1,0 +1,5 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px; /* always transparent */
+}
