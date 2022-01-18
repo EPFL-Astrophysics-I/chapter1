@@ -1,62 +1,53 @@
-import React from 'react';
-import Unity, { UnityContent } from 'react-unity-webgl';
+import UnityApp from '../UnityApp/UnityApp';
 import './Main.css';
 
-class Main extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { progress: 0, isLoading: true };
+const app1 = {
+  index: 1,
+  name: 'Two-body problem',
+  json: 'Chapter1/Build/Chapter1.json',
+  unityLoader: 'Chapter1/Build/UnityLoader.js',
+  description:
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  loadUnity: false,
+};
 
-    this.unityContent = new UnityContent(
-      'Chapter1/Build/Chapter1.json',
-      'Chapter1/Build/UnityLoader.js'
-    );
+const app2 = {
+  index: 2,
+  name: "Kepler's First Law",
+  json: 'Chapter1/Build/Chapter1.json',
+  unityLoader: 'Chapter1/Build/UnityLoader.js',
+  description:
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  loadUnity: false,
+};
 
-    this.unityContent.on('progress', (progress) => {
-      this.setState({ progress: progress });
-    });
+const app3 = {
+  index: 3,
+  name: "Kepler's Second Law",
+  json: 'Chapter1/Build/Chapter1.json',
+  unityLoader: 'Chapter1/Build/UnityLoader.js',
+  description:
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  loadUnity: false,
+};
 
-    this.unityContent.on('loaded', () => {
-      this.setState({ isLoading: false });
-    });
-  }
+const app4 = {
+  index: 4,
+  name: "Kepler's Third Law",
+  json: 'Chapter1/Build/Chapter1.json',
+  unityLoader: 'Chapter1/Build/UnityLoader.js',
+  description:
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  loadUnity: false,
+};
 
-  componentDidMount() {
-    window.addEventListener('resize', this.resize);
-    this.resize();
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener('resize', this.resize);
-  }
-
-  resize = () => {
-    const unityElement = document.getElementById('unity');
-    const width = parseFloat(window.getComputedStyle(unityElement).width);
-
-    unityElement.setAttribute(
-      'style',
-      'height: ' + (width / 16) * 10 + 'px !important'
-    );
-  };
-
-  render() {
-    return (
-      <main className='content'>
-        {/* <Chapter props={chapter1} />
-      <Chapter props={chapter2} />
-      <Chapter props={chapter3} /> */}
-        <div className='unity-player'>
-          {this.state.isLoading === true && (
-            <p style={{ textAlign: 'left' }}>Loading...</p>
-          )}
-          <div id='unity'>
-            <Unity unityContent={this.unityContent} />
-          </div>
-        </div>
-      </main>
-    );
-  }
+export default function Main() {
+  return (
+    <main className='content'>
+      <UnityApp {...app1} />
+      <UnityApp {...app2} />
+      <UnityApp {...app3} />
+      <UnityApp {...app4} />
+    </main>
+  );
 }
-
-export default Main;

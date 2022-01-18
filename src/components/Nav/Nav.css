@@ -9,16 +9,17 @@
   /* background-color: chartreuse; */
 }
 
-.nav-link {
+.nav a {
+  text-decoration: none;
   padding: 0px 18px;
   margin: 5px 10px;
-  /* background-color: red; */
   font-size: 18px;
   text-transform: uppercase;
   color: black;
   cursor: pointer;
+  /* background-color: red; */
 }
 
-.nav-link-active {
+.nav a:hover {
   color: gray;
 }
