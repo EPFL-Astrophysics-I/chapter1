@@ -10,7 +10,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url('./wave-background.png');
   background-size: 100% 1691px;
-  background-position: 0% -9%;
+  background-position: 0% -150px;
 }
 
 code {
