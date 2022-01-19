@@ -7,7 +7,7 @@
   justify-content: space-between; /* along main axis */
   align-items: center; /* cross-axis */
   height: 110px;
-  background-color: white;
+  /* background-color: white; */
 }
 
 #header-logo {
