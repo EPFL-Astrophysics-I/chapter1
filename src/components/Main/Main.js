@@ -16,7 +16,7 @@ const app1 = {
 const app2 = {
   index: 2,
   name: "Kepler's First Law",
-  json: 'KeplersFirstLaw/Build/UnityApp.json',
+  json: 'KeplersFirstLaw/Build/KeplersFirstLaw.json',
   unityLoader: 'KeplersFirstLaw/Build/UnityLoader.js',
   description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
