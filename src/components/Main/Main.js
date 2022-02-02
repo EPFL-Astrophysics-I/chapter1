@@ -19,7 +19,9 @@ const app2 = {
   json: 'KeplersFirstLaw/Build/KeplersFirstLaw.json',
   unityLoader: 'KeplersFirstLaw/Build/UnityLoader.js',
   description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    "Kepler's first law says that the orbit of a planet is an ellipse with the Sun at one focus. " +
+    'It can be thought of as a limiting case of the more general two-body problem, where one of the bodies ' +
+    'is significantly more massive than the other.',
 };
 
 const app3 = {
@@ -28,7 +30,7 @@ const app3 = {
   json: 'UnityApp/Build/UnityApp.json',
   unityLoader: 'UnityApp/Build/UnityLoader.js',
   description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    "Kepler's second law says that the radius vector of a planet sweeps out equal areas in equal time. ",
 };
 
 const app4 = {
@@ -37,7 +39,8 @@ const app4 = {
   json: 'UnityApp/Build/UnityApp.json',
   unityLoader: 'UnityApp/Build/UnityLoader.js',
   description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    "Kepler's third law says that the square of the orbital period of a planet is proportional to the " +
+    'cube of its semi-major axis. ',
 };
 
 export default function Main() {

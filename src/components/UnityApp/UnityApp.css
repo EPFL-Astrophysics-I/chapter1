@@ -3,17 +3,21 @@
   padding: 10px;
   margin-bottom: 6rem;
   letter-spacing: 0.5px;
+  line-height: 1.5rem;
   /* background-color: rgb(255, 204, 184); */
 }
 
 .unity-app p {
-  text-align: left;
-  margin-top: -8px;
+  text-align: justify;
+  margin: -8px 60px 0px 60px;
   /* background-color: lightsalmon; */
 }
 
 .unity-app h3 {
   text-transform: capitalize;
+  margin-top: 50px;
+  margin-left: 60px;
+  margin-right: 60px;
   /* background-color: lightseagreen; */
 }
 
