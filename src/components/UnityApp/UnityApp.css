@@ -48,6 +48,16 @@
   background-color: rgb(236, 236, 236);
 }
 
+.unity-player img {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  /* background-color: greenyellow; */
+}
+
 .unity-player-button button:hover {
   opacity: 80%;
 }

@@ -46,18 +46,27 @@ class UnityApp extends React.Component {
           {this.state.canLoad ? (
             <Unity unityContent={this.unityContent} />
           ) : (
-            <div className='unity-player-button'>
-              <button
-                onClick={() => {
-                  this.setState({
-                    canLoad: !this.state.canLoad,
-                    isLoading: true,
-                  });
-                }}
-              >
-                CLICK TO LOAD
-              </button>
-            </div>
+            // <div className='unity-player-image'>
+            //   <button
+            //     onClick={() => {
+            //       this.setState({
+            //         canLoad: !this.state.canLoad,
+            //         isLoading: true,
+            //       });
+            //     }}
+            //   >
+            //     CLICK TO LOAD
+            //   </button>
+            // </div>
+            <img
+              src={this.props.image}
+              onClick={() => {
+                this.setState({
+                  canLoad: !this.state.canLoad,
+                  isLoading: true,
+                });
+              }}
+            ></img>
           )}
         </div>
         <h3>{this.props.name}</h3>
