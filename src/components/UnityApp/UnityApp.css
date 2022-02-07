@@ -27,37 +27,17 @@
 
 .unity-player {
   border: 2px solid rgb(233, 233, 233);
-  /* background-color: magenta; */
-  /* padding: 10px; */
-}
-
-.unity-player-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  /* background-color: lime; */
-}
-
-.unity-player-button button {
-  width: 100%;
-  height: 100%;
-  border-width: 0px;
-  font-size: 20px;
-  cursor: pointer;
-  background-color: rgb(236, 236, 236);
+  /* padding: 10px;
+  background-color: magenta; */
 }
 
 .unity-player img {
-  display: flex;
-  flex-direction: row;
-  margin: auto;
   width: 100%;
   height: 100%;
   cursor: pointer;
-  /* background-color: greenyellow; */
+  /* background-color: blue; */
 }
 
-.unity-player-button button:hover {
+.unity-player img:hover {
   opacity: 80%;
 }
