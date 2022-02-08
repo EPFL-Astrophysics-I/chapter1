@@ -35,7 +35,10 @@ class UnityApp extends React.Component {
     const unityElement = document.getElementById(this.state.id);
     const width = parseFloat(window.getComputedStyle(unityElement).width);
 
-    unityElement.setAttribute('style', 'height: ' + (width / 16) * 10 + 'px');
+    unityElement.setAttribute(
+      'style',
+      'height: ' + (width / 16) * 10 + 'px !important'
+    );
   };
 
   render() {
