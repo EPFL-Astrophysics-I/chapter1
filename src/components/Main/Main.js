@@ -45,8 +45,8 @@ const app3 = {
 const app4 = {
   index: 4,
   name: "Kepler's Third Law",
-  json: 'UnityApp/Build/UnityApp.json',
-  unityLoader: 'UnityApp/Build/UnityLoader.js',
+  json: 'KeplersThirdLaw/Build/KeplersThirdLaw.json',
+  unityLoader: 'KeplersThirdLaw/Build/UnityLoader.js',
   description:
     "Kepler's third law says that the square of the orbital period of a planet is proportional to the " +
     'cube of its semi-major axis. ',
