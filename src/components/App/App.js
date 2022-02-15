@@ -11,7 +11,7 @@ export default function App() {
       <Header />
       <Title />
       <AppNav />
-      <Message />
+      {/* <Message /> */}
       <Main />
     </div>
   );
