@@ -10,7 +10,7 @@ class UnityApp extends React.Component {
       id: 'unity-app-' + this.props.index,
       progress: 0,
       isLoading: false,
-      canLoad: false,
+      startLoading: false,
     };
 
     this.unityContent = new UnityContent(props.json, props.unityLoader);
@@ -44,16 +44,22 @@ class UnityApp extends React.Component {
   render() {
     return (
       <div className='unity-app'>
-        {/* <p>{this.state.isLoading ? 'Loading...' : ''}</p> */}
+        {this.state.isLoading ? (
+          <p id='loading'>
+            Loading... {(100 * this.state.progress).toFixed()} %
+          </p>
+        ) : (
+          <p id='not-loading'></p>
+        )}
         <div id={this.state.id} className='unity-player'>
-          {this.state.canLoad ? (
+          {this.state.startLoading ? (
             <Unity unityContent={this.unityContent} />
           ) : (
             <img
               src={this.props.image}
               onClick={() => {
                 this.setState({
-                  canLoad: !this.state.canLoad,
+                  startLoading: true,
                   isLoading: true,
                 });
               }}

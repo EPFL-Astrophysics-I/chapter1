@@ -13,16 +13,31 @@
   /* background-color: lightsalmon; */
 }
 
+#not-loading {
+  margin-left: 0px;
+  width: 130px;
+  height: 20px;
+  padding: 2px;
+  text-align: left;
+}
+
+#loading {
+  z-index: 99;
+  margin-left: 0px;
+  width: 130px;
+  height: 20px;
+  padding: 2px;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  /* background-color: rgb(255, 0, 0); */
+}
+
 .unity-app h3 {
   text-transform: capitalize;
   margin-top: 50px;
   margin-left: 60px;
   margin-right: 60px;
   /* background-color: lightseagreen; */
-}
-
-.unity-app span {
-  background-color: lime;
 }
 
 .unity-player {
