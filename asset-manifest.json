@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/chapter1/static/css/main.6d84e01b.css",
+    "main.css": "/chapter1/static/css/main.de6bcf86.css",
     "main.js": "/chapter1/static/js/main.a42ee389.js",
     "static/js/787.1112bc28.chunk.js": "/chapter1/static/js/787.1112bc28.chunk.js",
     "static/media/img-load-second-law.png": "/chapter1/static/media/img-load-second-law.9f410ff5b31439202422.png",
@@ -9,12 +9,12 @@
     "static/media/img-load-first-law.png": "/chapter1/static/media/img-load-first-law.8c3ba42f9379cfbb02ba.png",
     "static/media/wave-background.png": "/chapter1/static/media/wave-background.11af55b25a30a1616613.png",
     "index.html": "/chapter1/index.html",
-    "main.6d84e01b.css.map": "/chapter1/static/css/main.6d84e01b.css.map",
+    "main.de6bcf86.css.map": "/chapter1/static/css/main.de6bcf86.css.map",
     "main.a42ee389.js.map": "/chapter1/static/js/main.a42ee389.js.map",
     "787.1112bc28.chunk.js.map": "/chapter1/static/js/787.1112bc28.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d84e01b.css",
+    "static/css/main.de6bcf86.css",
     "static/js/main.a42ee389.js"
   ]
 }
