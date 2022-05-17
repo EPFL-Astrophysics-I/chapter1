@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/chapter1/static/css/main.4b99b3c0.css",
-    "main.js": "/chapter1/static/js/main.9b3b180a.js",
+    "main.js": "/chapter1/static/js/main.02c2421a.js",
     "static/js/787.1112bc28.chunk.js": "/chapter1/static/js/787.1112bc28.chunk.js",
     "static/media/img-load-second-law.png": "/chapter1/static/media/img-load-second-law.9f410ff5b31439202422.png",
     "static/media/img-load-two-body.png": "/chapter1/static/media/img-load-two-body.4a7deb73d83a2ebc9b9d.png",
@@ -10,11 +10,11 @@
     "static/media/wave-background.png": "/chapter1/static/media/wave-background.11af55b25a30a1616613.png",
     "index.html": "/chapter1/index.html",
     "main.4b99b3c0.css.map": "/chapter1/static/css/main.4b99b3c0.css.map",
-    "main.9b3b180a.js.map": "/chapter1/static/js/main.9b3b180a.js.map",
+    "main.02c2421a.js.map": "/chapter1/static/js/main.02c2421a.js.map",
     "787.1112bc28.chunk.js.map": "/chapter1/static/js/787.1112bc28.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b99b3c0.css",
-    "static/js/main.9b3b180a.js"
+    "static/js/main.02c2421a.js"
   ]
 }
