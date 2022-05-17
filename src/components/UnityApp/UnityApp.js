@@ -72,7 +72,7 @@ class UnityApp extends React.Component {
           <h3>{this.props.name}</h3>
           {this.props.github ? (
             <a href={this.props.github}>
-              <FontAwesomeIcon icon={faGithub} color='black' />
+              <FontAwesomeIcon icon={faGithub} color='#969696' size='lg' />
             </a>
           ) : (
             <p></p>
