@@ -32,19 +32,26 @@
   /* background-color: rgb(255, 0, 0); */
 }
 
-.unity-app h3 {
+.unity-app-description {
+  margin: 0px 60px;
+}
+
+.unity-app-description h3 {
+  display: inline;
   text-transform: capitalize;
-  margin-top: 50px;
-  margin-left: 60px;
-  margin-right: 60px;
-  /* background-color: lightseagreen; */
+  width: max-content;
+  padding-right: 15px;
+}
+
+.unity-app-description p {
+  margin: auto;
+  margin-top: 10px;
 }
 
 .unity-player {
   border: 2px solid rgb(233, 233, 233);
   max-height: 665px;
-  /* padding: 10px;
-  background-color: magenta; */
+  margin-bottom: 50px;
 }
 
 .unity-player img {

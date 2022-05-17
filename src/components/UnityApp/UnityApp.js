@@ -1,5 +1,7 @@
 import React from 'react';
 import Unity, { UnityContent } from 'react-unity-webgl';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import './UnityApp.css';
 
 class UnityApp extends React.Component {
@@ -66,8 +68,17 @@ class UnityApp extends React.Component {
             ></img>
           )}
         </div>
-        <h3>{this.props.name}</h3>
-        <p>{this.props.description}</p>
+        <div className='unity-app-description'>
+          <h3>{this.props.name}</h3>
+          {this.props.github ? (
+            <a href={this.props.github}>
+              <FontAwesomeIcon icon={faGithub} color='black' />
+            </a>
+          ) : (
+            <p></p>
+          )}
+          <p>{this.props.description}</p>
+        </div>
       </div>
     );
   }

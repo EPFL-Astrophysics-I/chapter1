@@ -16,6 +16,7 @@ const app1 = {
     'Unlike the general N-body problem, the equations of motion governing two bodies have a closed-form solution, which ' +
     'can also be understood in terms of single body moving in a spherically symmetric gravitational potential well.',
   image: image1,
+  github: 'https://github.com/EPFL-Astrophysics-I/two-body-problem.git',
 };
 
 const app2 = {
@@ -28,6 +29,7 @@ const app2 = {
     'It can be thought of as a limiting case of the more general two-body problem, where one of the bodies ' +
     'is significantly more massive than the other.',
   image: image2,
+  github: 'https://github.com/EPFL-Astrophysics-I/keplers-first-law.git',
 };
 
 const app3 = {
@@ -40,6 +42,7 @@ const app3 = {
     "Although the planet's velocity and distance from its star may change throughout its orbit, the area " +
     'swept out is always simply proportional to the time elapsed.',
   image: image3,
+  github: 'https://github.com/EPFL-Astrophysics-I/keplers-second-law.git',
 };
 
 const app4 = {
@@ -51,6 +54,7 @@ const app4 = {
     "Kepler's third law says that the square of the orbital period of a planet is proportional to the " +
     'cube of its semi-major axis. ',
   image: image4,
+  github: 'https://github.com/EPFL-Astrophysics-I/keplers-third-law.git',
 };
 
 export default function Main() {
